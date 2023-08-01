@@ -1,0 +1,51 @@
+/* Estilos generales */
+
+
+nav {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+nav a {
+    color: #333;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Cuadro principal */
+main {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    line-height: 1.5em;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+img.Izquierda {
+    float: right;
+    margin: 0px 0px 0px 60px;
+}

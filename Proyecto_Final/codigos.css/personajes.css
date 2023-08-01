@@ -1,0 +1,114 @@
+/* Estilos generales */
+
+
+nav {
+    background-color: #ccc;
+    padding: 10px;
+}
+
+nav a {
+    color: #333;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*estilo para los cuadro*/
+#recuadro1 {
+    box-shadow: 30px 10px 20px #aaa;
+    border-radius: 20px;
+    background-color: #ff0000;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#recuadro2 {
+    box-shadow: 30px 10px 20px #aaa;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 300px;
+    padding: 10px;
+    margin-left: 15px;
+    border-radius: 15px;
+}
+
+#recuadro3 {
+    box-shadow: 30px 10px 20px #aaa;
+    border-radius: 20px;
+    background-color: #ff0000;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#recuadro1>h2 {
+    text-align: center;
+}
+
+#recuadro2>h2 {
+    text-align: center;
+}
+
+#recuadro3>h2 {
+    text-align: center;
+}
+
+img.c {
+    float: center;
+    margin: 0px 0px 0px 40px;
+    border-radius: 10%;
+}
+
+#recuadro1>a {
+    color: #333;
+}
+
+#recuadro1>h2 {
+    text-align: center;
+}
+
+#recuadro1:hover {
+    background-color: #ffffff;
+}
+
+#recuadro2:hover {
+    background-color: #fd0000;
+}
+
+#recuadro3:hover {
+    background-color: #ffffff;
+}

@@ -1,0 +1,94 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  /* Estilos para la navegación */
+  nav {
+    background-color: #ccc;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #333;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    font-size: 24px;
+  }
+  
+  main p {
+    line-height: 1.5em;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  footer p {
+    text-align: center;
+  }
+  /*estilo para la imagen*/
+  img.Izquierda{
+    float: right;
+    margin: 0px 0px 0px 60px;
+    width: 150px;
+    border-radius: 5%;
+  }
+  /*estilo para los cuadro*/
+  #recuadro1{
+    box-shadow: 30px 10px 20px #aaa;
+    border-radius: 20px;
+    background-color: #ff0000;
+    width: 300px;
+    padding: 10px;
+  }
+  #recuadro2{
+    box-shadow: 30px 10px 20px #aaa;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 300px;
+    padding: 10px;
+    margin-left: 15px;
+  }
+  #recuadro3{
+    box-shadow: 30px 10px 20px #aaa;
+    border-radius: 20px;
+    background-color: #ff0000;
+    width: 300px;
+    padding: 10px;
+  }
+  .contenedor{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  #recuadro1 > h2{
+    text-align: center;
+  }
+  #recuadro2 > h2{
+    text-align: center;
+  }
+  #recuadro3 > h2{
+    text-align: center;
+  }
+  video{
+    border-radius: 7%;
+  }

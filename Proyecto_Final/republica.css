@@ -1,0 +1,90 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+nav {
+    background-color: #ccc;
+    padding: 10px;
+}
+img.Izquierda{
+    float: right;
+    margin: 0px 0px 0px 60px;
+    width: 200px;
+    border-radius: 10%;
+  }
+
+/* Estilos para el cuerpo */
+main {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+li {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+}
+
+p {
+    margin: 0;
+}
+
+main>h2 {
+    text-align: center;
+}
+.imagen {
+    --opacidad-negro: 0.8;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("Imagenes/alberto.jpg");
+}
+main>p{
+    color: red;
+}
+main>ul>li{
+    color: red;
+}
+main>h3{
+    text-align: center;
+    color: red;
+}
+main>h2{
+    color: rgb(182, 152, 22);
+}
